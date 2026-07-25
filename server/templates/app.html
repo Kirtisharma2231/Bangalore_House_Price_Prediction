@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Bangalore House Price Predictor</title>
+
+<link rel="stylesheet" href="../static/app.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="../static/app.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🏡 Bangalore House Price Predictor</h1>
+
+<p class="subtitle">
+AI Powered House Price Estimation
+</p>
+
+<div class="input-group">
+
+<label>Area (Square Feet)</label>
+
+<input
+type="number"
+id="uiSqft"
+placeholder="Enter Area">
+
+</div>
+
+<div class="input-group">
+
+<label>BHK</label>
+
+<select id="uiBHK">
+
+<option value="1">1</option>
+<option value="2" selected>2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+
+</select>
+
+</div>
+
+<div class="input-group">
+
+<label>Bathrooms</label>
+
+<select id="uiBathrooms">
+
+<option value="1">1</option>
+<option value="2" selected>2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+
+</select>
+
+</div>
+
+<div class="input-group">
+
+<label>Location</label>
+
+<select id="uiLocations">
+
+<option disabled selected>Select Location</option>
+
+</select>
+
+</div>
+
+<button onclick="onClickedEstimatePrice()">
+
+Estimate Price
+
+</button>
+
+<div class="result">
+
+<h3>Estimated Price</h3>
+
+<h2 id="uiEstimatedPrice">
+₹ 0 Lakhs
+</h2>
+
+</div>
+
+</div>
+<script>
+alert("Inline JavaScript Working");
+</script>
+</body>
+
+</html>

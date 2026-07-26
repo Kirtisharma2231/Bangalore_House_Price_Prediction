@@ -287,7 +287,7 @@ POST /get_prediction_price
 
 ## Clone the Repository
 
-git clone https://github.com/YOUR_USERNAME/Bangalore-House-Price-Prediction.git
+git clone https://github.com/Kirtisharma2231/Bangalore_House_Price_Prediction.git
 
 ---
 
@@ -357,4 +357,4 @@ B.Tech | Computer Science | Engineering
 Machine Learning | Data Science | Artificial Intelligence
 
 GitHub:
-https://github.com/YOUR_USERNAME
+https://github.com/Kirtisharma2231
